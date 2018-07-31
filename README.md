@@ -16,7 +16,7 @@ npm run dev
 
 ### 遇到的问题：使用的el-tabs组件之后npm run dev页面崩溃了。已经用两个办法莫名其妙的解决了，但是不知道是为什么。
 在编辑商品区el-tabs的之后就出错了。问题代码在src/components/pagevue/pos.vue，图如下
-![avatar](./src/assents/bug.png)
+![bug](http://github.com/xiaomizhou66/element-ui-el-tabs/raw/master/src/assents/bug.png)
 
 ### 解决办法
 方法1：在el-tabs 前面加上一个标题行<h1>在这里加上这行行可以解决问题</h1> 就解决问题，
